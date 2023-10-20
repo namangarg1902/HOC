@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.payment-options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+  
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    flex: 1;
+    background-color: #f0f0f0;
+    font-size: 1.5rem;
+    border-radius: 25px;
+  }
+  .Item{
+    font-size: 2rem;
+    border-radius: 25px;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .Item:hover{
+    box-shadow: 10px 10px 5px aquamarine;
+  }
+  
+  .List{
+    list-style: none;
+  }
+
+  .card-details {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 70vh;
+    flex: 1;
+    background-color: #e0e0e0;
+    flex-direction: column;
+    border-radius: 30px;
+    /* border: 1px solid brown; */
+  }
+  .form{
+    display: flex;
+    /* border: 1px solid red ; */
+    height: 80%;
+  }
+
+  .form form input{
+    height: 10%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0% 5%;
+    margin: 0% 15%;
+
+  }
+
+  .form form label{
+    font-size: 1.5rem;
+  }
