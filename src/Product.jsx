@@ -1,5 +1,5 @@
 import React from 'react';
-import Ola from "./assets/ola.png";
+import Ola from "./assets/olaa.png";
 import "./Product.css";
 import { Link } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ export const Product = () => {
           <h1 className="heading">
             <span className='sub-head'>Electric Ola</span>
             <br />
-          <p style={{marginTop:"-2%"}}>
+          <p style={{marginTop:"0%"}}>
             Effortless. Eco-Friendly. Electric
             
           </p>
@@ -30,7 +30,7 @@ export const Product = () => {
 
           <div className="button-container">
             <button className='btn-grad'>
-              <Link to="/payment-options">Buy Now</Link>
+              <Link to="/payment-options" style={{color: "black"}}>Buy Now</Link>
               </button>
               <button className='btn-grad' style={{backgroundColor:"aquamarine", color: "black"}}>
               Regret Later

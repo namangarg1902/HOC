@@ -7,7 +7,6 @@ import { Product } from './Product';
 function App() {
   return (
     <Routes>
-      
         <Route path="/" element={<Product />} />
         <Route path="/payment-options" element={<PaymentOptions/>} />
         <Route path="/payment/:method" element={<PaymentMethod/>} />

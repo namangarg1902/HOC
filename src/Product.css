@@ -16,8 +16,8 @@
     position: absolute;
     right: -12%;
     bottom: 5%;
-    width: 88%;
-    height: 79%;
+    width: 85%;
+    height: 81%;
 }
 .product-right{
     padding: 3em;
@@ -27,14 +27,13 @@
 
 .sub-head{
     font-size: 1.2rem;
-    color: gray;
+    color: #b2aeae;
     font-family: 'Poppins', sans-serif;
 
 }
 .heading{
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
-    color: black;
     font-weight: 600;
     margin-top: 10%;
     margin-left: 5%;
@@ -52,7 +51,7 @@
 }
 
 .btn-grad{
-    background-color: #f5f51d;
+    background-color: white;
     width: 40%;
     margin: 1em;
     border-radius: 10px;
@@ -60,6 +59,8 @@
     font-size: 1.3rem;
     padding: 1em;
     transition: all 0.2s ease;
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
 }
 .btn-grad:hover{
     scale: 1.09;
